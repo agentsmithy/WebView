@@ -1,0 +1,6 @@
+[submodule "ExampleCore"]
+	path = ExampleCore
+	url = https://github.com/agentsmithy/ExampleCore.git
+[submodule "ExampleClientLibrary"]
+	path = ExampleClientLibrary
+	url = https://github.com/agentsmithy/ExampleClientLibrary

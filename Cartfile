@@ -1,0 +1,3 @@
+github "agentsmithy/ExampleCore.git" "develop"
+github "bitstadium/HockeySDK-iOS" == 5.0.0
+

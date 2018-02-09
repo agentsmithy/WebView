@@ -1,0 +1,12 @@
+PROJECT_ROOT=`git rev-parse --show-toplevel`
+
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+CHANGED=`git diff --cached --stat -- $PROJECT_ROOT/MyAMP.xcodeproj/project.pbxproj | wc -l`
+if [ $CHANGED -gt 0 ];
+then
+    echo "Your project.pbpxproj file has changed. Are you sure you want to push this change to the repo?"
+    echo "Use the -n parameter to force this commit."
+    exit 1
+fi

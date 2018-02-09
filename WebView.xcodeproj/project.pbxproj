@@ -14,6 +14,59 @@
 		1A53529920296E9B0001F91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A53529720296E9B0001F91C /* LaunchScreen.storyboard */; };
 		1A5352A420296E9B0001F91C /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352A320296E9B0001F91C /* WebViewTests.swift */; };
 		1A5352AF20296E9B0001F91C /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5352AE20296E9B0001F91C /* WebViewUITests.swift */; };
+		1A535341202C61D90001F91C /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 1A53533E202C61D90001F91C /* Cartfile.resolved */; };
+		1A535342202C61D90001F91C /* Cartfile.private in Resources */ = {isa = PBXBuildFile; fileRef = 1A53533F202C61D90001F91C /* Cartfile.private */; };
+		1A535343202C61D90001F91C /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 1A535340202C61D90001F91C /* Cartfile */; };
+		1A535346202D074F0001F91C /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535345202D074F0001F91C /* ExampleCore.framework */; };
+		1A535348202D075F0001F91C /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535347202D075F0001F91C /* TPKeyboardAvoidingKit.framework */; };
+		1A53534A202D07690001F91C /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535349202D07690001F91C /* ReactiveCocoa.framework */; };
+		1A53534C202D07760001F91C /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53534B202D07760001F91C /* ReactiveSwift.framework */; };
+		1A53534E202D07800001F91C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53534D202D07800001F91C /* Result.framework */; };
+		1A535352202D07940001F91C /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535351202D07940001F91C /* pop.framework */; };
+		1A535354202D079F0001F91C /* ExampleClientLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535353202D079F0001F91C /* ExampleClientLibrary.framework */; };
+		1A535356202D07AC0001F91C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535355202D07AC0001F91C /* ObjectMapper.framework */; };
+		1A53535A202D07C10001F91C /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535359202D07C10001F91C /* HockeySDK.framework */; };
+		1A53535C202D07CB0001F91C /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535B202D07CB0001F91C /* Mustache.framework */; };
+		1A53535E202D07D40001F91C /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535D202D07D40001F91C /* EasyPeasy.framework */; };
+		1A535364202D07E60001F91C /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535F202D07E50001F91C /* CommonCrypto.framework */; };
+		1A535365202D07E60001F91C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535360202D07E50001F91C /* Charts.framework */; };
+		1A535366202D07E60001F91C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535361202D07E50001F91C /* Alamofire.framework */; };
+		1A535367202D07E60001F91C /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535362202D07E60001F91C /* CleanroomLogger.framework */; };
+		1A535368202D07E60001F91C /* BonMot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535363202D07E60001F91C /* BonMot.framework */; };
+		1A53536A202D07F10001F91C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535369202D07F10001F91C /* libsqlite3.tbd */; };
+		1A53536E202D08040001F91C /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53536C202D08040001F91C /* AdobeMobileLibrary.a */; };
+		1A535370202D08130001F91C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53536F202D08130001F91C /* UserNotifications.framework */; };
+		1A535373202D0C6B0001F91C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535361202D07E50001F91C /* Alamofire.framework */; };
+		1A535374202D0C6B0001F91C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535361202D07E50001F91C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535375202D0C6B0001F91C /* BonMot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535363202D07E60001F91C /* BonMot.framework */; };
+		1A535376202D0C6B0001F91C /* BonMot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535363202D07E60001F91C /* BonMot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535377202D0C6B0001F91C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535360202D07E50001F91C /* Charts.framework */; };
+		1A535378202D0C6B0001F91C /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535360202D07E50001F91C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53537A202D0C6B0001F91C /* CleanroomLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535362202D07E60001F91C /* CleanroomLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53537B202D0C6B0001F91C /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535F202D07E50001F91C /* CommonCrypto.framework */; };
+		1A53537C202D0C6B0001F91C /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535F202D07E50001F91C /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53537D202D0C6B0001F91C /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535D202D07D40001F91C /* EasyPeasy.framework */; };
+		1A53537E202D0C6B0001F91C /* EasyPeasy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535D202D07D40001F91C /* EasyPeasy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53537F202D0C6B0001F91C /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535B202D07CB0001F91C /* Mustache.framework */; };
+		1A535380202D0C6B0001F91C /* Mustache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53535B202D07CB0001F91C /* Mustache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535381202D0C6B0001F91C /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535359202D07C10001F91C /* HockeySDK.framework */; };
+		1A535382202D0C6B0001F91C /* HockeySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535359202D07C10001F91C /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535383202D0C6B0001F91C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535355202D07AC0001F91C /* ObjectMapper.framework */; };
+		1A535384202D0C6B0001F91C /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535355202D07AC0001F91C /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535385202D0C6B0001F91C /* ExampleClientLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535353202D079F0001F91C /* ExampleClientLibrary.framework */; };
+		1A535386202D0C6B0001F91C /* ExampleClientLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535353202D079F0001F91C /* ExampleClientLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535387202D0C6B0001F91C /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535351202D07940001F91C /* pop.framework */; };
+		1A535388202D0C6B0001F91C /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535351202D07940001F91C /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535389202D0C6B0001F91C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53534D202D07800001F91C /* Result.framework */; };
+		1A53538A202D0C6B0001F91C /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53534D202D07800001F91C /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53538B202D0C6B0001F91C /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53534B202D07760001F91C /* ReactiveSwift.framework */; };
+		1A53538C202D0C6B0001F91C /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53534B202D07760001F91C /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53538D202D0C6B0001F91C /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535349202D07690001F91C /* ReactiveCocoa.framework */; };
+		1A53538E202D0C6B0001F91C /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535349202D07690001F91C /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A53538F202D0C6B0001F91C /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535347202D075F0001F91C /* TPKeyboardAvoidingKit.framework */; };
+		1A535390202D0C6B0001F91C /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535347202D075F0001F91C /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A535391202D0C6B0001F91C /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535345202D074F0001F91C /* ExampleCore.framework */; };
+		1A535392202D0C6B0001F91C /* ExampleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A535345202D074F0001F91C /* ExampleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +86,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A535393202D0C6B0001F91C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A535392202D0C6B0001F91C /* ExampleCore.framework in Embed Frameworks */,
+				1A535380202D0C6B0001F91C /* Mustache.framework in Embed Frameworks */,
+				1A53538C202D0C6B0001F91C /* ReactiveSwift.framework in Embed Frameworks */,
+				1A53537E202D0C6B0001F91C /* EasyPeasy.framework in Embed Frameworks */,
+				1A535384202D0C6B0001F91C /* ObjectMapper.framework in Embed Frameworks */,
+				1A53538E202D0C6B0001F91C /* ReactiveCocoa.framework in Embed Frameworks */,
+				1A535388202D0C6B0001F91C /* pop.framework in Embed Frameworks */,
+				1A535378202D0C6B0001F91C /* Charts.framework in Embed Frameworks */,
+				1A53537A202D0C6B0001F91C /* CleanroomLogger.framework in Embed Frameworks */,
+				1A535390202D0C6B0001F91C /* TPKeyboardAvoidingKit.framework in Embed Frameworks */,
+				1A53538A202D0C6B0001F91C /* Result.framework in Embed Frameworks */,
+				1A535382202D0C6B0001F91C /* HockeySDK.framework in Embed Frameworks */,
+				1A535376202D0C6B0001F91C /* BonMot.framework in Embed Frameworks */,
+				1A535386202D0C6B0001F91C /* ExampleClientLibrary.framework in Embed Frameworks */,
+				1A53537C202D0C6B0001F91C /* CommonCrypto.framework in Embed Frameworks */,
+				1A535374202D0C6B0001F91C /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A53528B20296E9B0001F91C /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A53528E20296E9B0001F91C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +129,31 @@
 		1A5352AA20296E9B0001F91C /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5352AE20296E9B0001F91C /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		1A5352B020296E9B0001F91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A53533E202C61D90001F91C /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		1A53533F202C61D90001F91C /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		1A535340202C61D90001F91C /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		1A535345202D074F0001F91C /* ExampleCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExampleCore.framework; path = Carthage/Build/iOS/ExampleCore.framework; sourceTree = "<group>"; };
+		1A535347202D075F0001F91C /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
+		1A535349202D07690001F91C /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		1A53534B202D07760001F91C /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		1A53534D202D07800001F91C /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		1A53534F202D078A0001F91C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		1A535351202D07940001F91C /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
+		1A535353202D079F0001F91C /* ExampleClientLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExampleClientLibrary.framework; path = Carthage/Build/iOS/ExampleClientLibrary.framework; sourceTree = "<group>"; };
+		1A535355202D07AC0001F91C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		1A535357202D07B50001F91C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		1A535359202D07C10001F91C /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = Carthage/Build/iOS/HockeySDK.framework; sourceTree = "<group>"; };
+		1A53535B202D07CB0001F91C /* Mustache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mustache.framework; path = Carthage/Build/iOS/Mustache.framework; sourceTree = "<group>"; };
+		1A53535D202D07D40001F91C /* EasyPeasy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyPeasy.framework; path = Carthage/Build/iOS/EasyPeasy.framework; sourceTree = "<group>"; };
+		1A53535F202D07E50001F91C /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
+		1A535360202D07E50001F91C /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
+		1A535361202D07E50001F91C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1A535362202D07E60001F91C /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = Carthage/Build/iOS/CleanroomLogger.framework; sourceTree = "<group>"; };
+		1A535363202D07E60001F91C /* BonMot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BonMot.framework; path = Carthage/Build/iOS/BonMot.framework; sourceTree = "<group>"; };
+		1A535369202D07F10001F91C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1A53536B202D08030001F91C /* IBMMobileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileKit.framework; path = Vendor/IBMMobileKit.framework; sourceTree = "<group>"; };
+		1A53536C202D08040001F91C /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AdobeMobileLibrary.a; path = Vendor/AdobeMobileLibrary/AdobeMobileLibrary.a; sourceTree = "<group>"; };
+		1A53536F202D08130001F91C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +161,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A53537F202D0C6B0001F91C /* Mustache.framework in Frameworks */,
+				1A535370202D08130001F91C /* UserNotifications.framework in Frameworks */,
+				1A53538D202D0C6B0001F91C /* ReactiveCocoa.framework in Frameworks */,
+				1A53536E202D08040001F91C /* AdobeMobileLibrary.a in Frameworks */,
+				1A53536A202D07F10001F91C /* libsqlite3.tbd in Frameworks */,
+				1A535364202D07E60001F91C /* CommonCrypto.framework in Frameworks */,
+				1A535391202D0C6B0001F91C /* ExampleCore.framework in Frameworks */,
+				1A535365202D07E60001F91C /* Charts.framework in Frameworks */,
+				1A535385202D0C6B0001F91C /* ExampleClientLibrary.framework in Frameworks */,
+				1A535373202D0C6B0001F91C /* Alamofire.framework in Frameworks */,
+				1A535366202D07E60001F91C /* Alamofire.framework in Frameworks */,
+				1A535389202D0C6B0001F91C /* Result.framework in Frameworks */,
+				1A535377202D0C6B0001F91C /* Charts.framework in Frameworks */,
+				1A535383202D0C6B0001F91C /* ObjectMapper.framework in Frameworks */,
+				1A535367202D07E60001F91C /* CleanroomLogger.framework in Frameworks */,
+				1A535368202D07E60001F91C /* BonMot.framework in Frameworks */,
+				1A53535E202D07D40001F91C /* EasyPeasy.framework in Frameworks */,
+				1A53535C202D07CB0001F91C /* Mustache.framework in Frameworks */,
+				1A53535A202D07C10001F91C /* HockeySDK.framework in Frameworks */,
+				1A535356202D07AC0001F91C /* ObjectMapper.framework in Frameworks */,
+				1A535354202D079F0001F91C /* ExampleClientLibrary.framework in Frameworks */,
+				1A53537D202D0C6B0001F91C /* EasyPeasy.framework in Frameworks */,
+				1A535375202D0C6B0001F91C /* BonMot.framework in Frameworks */,
+				1A535352202D07940001F91C /* pop.framework in Frameworks */,
+				1A535387202D0C6B0001F91C /* pop.framework in Frameworks */,
+				1A53534E202D07800001F91C /* Result.framework in Frameworks */,
+				1A53538B202D0C6B0001F91C /* ReactiveSwift.framework in Frameworks */,
+				1A53534C202D07760001F91C /* ReactiveSwift.framework in Frameworks */,
+				1A535381202D0C6B0001F91C /* HockeySDK.framework in Frameworks */,
+				1A53537B202D0C6B0001F91C /* CommonCrypto.framework in Frameworks */,
+				1A53534A202D07690001F91C /* ReactiveCocoa.framework in Frameworks */,
+				1A53538F202D0C6B0001F91C /* TPKeyboardAvoidingKit.framework in Frameworks */,
+				1A535348202D075F0001F91C /* TPKeyboardAvoidingKit.framework in Frameworks */,
+				1A535346202D074F0001F91C /* ExampleCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +218,14 @@
 		1A53528220296E9B0001F91C = {
 			isa = PBXGroup;
 			children = (
+				1A535340202C61D90001F91C /* Cartfile */,
+				1A53533F202C61D90001F91C /* Cartfile.private */,
+				1A53533E202C61D90001F91C /* Cartfile.resolved */,
 				1A53528D20296E9B0001F91C /* WebView */,
 				1A5352A220296E9B0001F91C /* WebViewTests */,
 				1A5352AD20296E9B0001F91C /* WebViewUITests */,
 				1A53528C20296E9B0001F91C /* Products */,
+				1A535344202D074F0001F91C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +270,35 @@
 			path = WebViewUITests;
 			sourceTree = "<group>";
 		};
+		1A535344202D074F0001F91C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A53536F202D08130001F91C /* UserNotifications.framework */,
+				1A53536C202D08040001F91C /* AdobeMobileLibrary.a */,
+				1A53536B202D08030001F91C /* IBMMobileKit.framework */,
+				1A535369202D07F10001F91C /* libsqlite3.tbd */,
+				1A535361202D07E50001F91C /* Alamofire.framework */,
+				1A535363202D07E60001F91C /* BonMot.framework */,
+				1A535360202D07E50001F91C /* Charts.framework */,
+				1A535362202D07E60001F91C /* CleanroomLogger.framework */,
+				1A53535F202D07E50001F91C /* CommonCrypto.framework */,
+				1A53535D202D07D40001F91C /* EasyPeasy.framework */,
+				1A53535B202D07CB0001F91C /* Mustache.framework */,
+				1A535359202D07C10001F91C /* HockeySDK.framework */,
+				1A535357202D07B50001F91C /* Nimble.framework */,
+				1A535355202D07AC0001F91C /* ObjectMapper.framework */,
+				1A535353202D079F0001F91C /* ExampleClientLibrary.framework */,
+				1A535351202D07940001F91C /* pop.framework */,
+				1A53534F202D078A0001F91C /* Quick.framework */,
+				1A53534D202D07800001F91C /* Result.framework */,
+				1A53534B202D07760001F91C /* ReactiveSwift.framework */,
+				1A535349202D07690001F91C /* ReactiveCocoa.framework */,
+				1A535347202D075F0001F91C /* TPKeyboardAvoidingKit.framework */,
+				1A535345202D074F0001F91C /* ExampleCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +309,7 @@
 				1A53528720296E9B0001F91C /* Sources */,
 				1A53528820296E9B0001F91C /* Frameworks */,
 				1A53528920296E9B0001F91C /* Resources */,
+				1A535393202D0C6B0001F91C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +407,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A535343202C61D90001F91C /* Cartfile in Resources */,
 				1A53529920296E9B0001F91C /* LaunchScreen.storyboard in Resources */,
+				1A535341202C61D90001F91C /* Cartfile.resolved in Resources */,
+				1A535342202C61D90001F91C /* Cartfile.private in Resources */,
 				1A53529620296E9B0001F91C /* Assets.xcassets in Resources */,
 				1A53529420296E9B0001F91C /* Main.storyboard in Resources */,
 			);
@@ -428,8 +606,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ND29TB5RN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				INFOPLIST_FILE = WebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/AdobeMobileLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesreeve.WebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -443,8 +630,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ND29TB5RN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				INFOPLIST_FILE = WebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/AdobeMobileLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesreeve.WebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
