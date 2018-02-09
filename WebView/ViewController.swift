@@ -17,8 +17,8 @@ class ViewController: UIViewController, UITextFieldDelegate, WKNavigationDelegat
     @IBOutlet weak var forwardButton: UIButton!
     @IBOutlet weak var urlTextField: UITextField!
     
-    //let urlString = "https://secure-uat.amp.com.au/ddc/public/ui/bett3r/"
-    let urlString = "https://api-uat.amp.com.au/api/combined/secure/v1/dashboardsummary"
+    let urlString = "https://secure-uat.amp.com.au/ddc/public/ui/bett3r/"
+//    let urlString = "https://api-uat.amp.com.au/api/combined/secure/v1/dashboardsummary"
     
     override func viewDidLoad() {
         super.viewDidLoad()
